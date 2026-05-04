@@ -24,7 +24,7 @@ add_library(foxmath-android SHARED
 target_include_directories(foxmath-android PRIVATE ${CMAKE_SOURCE_DIR}/src/core)
 target_link_libraries(foxmath-android log)
 
-# 输出名带架构后缀，方便区分
+# 输出
 set_target_properties(foxmath-android PROPERTIES
     OUTPUT_NAME "foxmath-android"
 )
